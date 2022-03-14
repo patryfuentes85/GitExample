@@ -1,0 +1,38 @@
+*{
+    margin: auto;
+}
+
+body{
+    background-color: #37bfe9;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+form{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px;
+    padding: 40px;
+    background-color: #13c05b;
+}
+
+label, input {
+    text-align: center;
+}
+
+input{
+    border: 1px solid black;
+}
+
+input[type=submit] {
+    font-weight: bold;
+    background-color: darkorange;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 10px 20px 0;
+    border: 1px solid rgb(49, 49, 49);
+    background: #eee;
+    border-radius: 8px 8px 8px 8px;
+}
